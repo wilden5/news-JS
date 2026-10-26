@@ -10,7 +10,8 @@
         "strict": true,
         "noUncheckedIndexedAccess": true,
         "sourceMap": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "noUncheckedSideEffectImports": false
     },
     "include": ["src/**/*"]
 }
