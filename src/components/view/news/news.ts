@@ -2,7 +2,7 @@ import './news.css';
 import { INewsArticle } from '../../../interfaces/news';
 
 class News {
-    draw(data: INewsArticle[]): void {
+    public draw(data: INewsArticle[]): void {
         const news: INewsArticle[] =
             data.length >= 10 ? data.filter((_item: INewsArticle, idx: number): boolean => idx < 10) : data;
         const newsContainer = document.querySelector('.news') as HTMLElement;
