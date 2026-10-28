@@ -11,7 +11,8 @@
         "noUncheckedIndexedAccess": true,
         "sourceMap": true,
         "skipLibCheck": true,
-        "noUncheckedSideEffectImports": false
+        "noUncheckedSideEffectImports": false,
+        "noImplicitAny": true
     },
     "include": ["src/**/*"]
 }
