@@ -9,6 +9,14 @@
     font-family: Arial, sans-serif;
     border-radius: 5px;
     overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInNews 0.4s ease-out;
+}
+
+.news__item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
 
 .news__item:hover .news__meta-photo {
@@ -162,5 +170,12 @@
 
     .news__item.alt .news__meta-details {
         padding-left: 25px;
+    }
+}
+
+@keyframes fadeInNews {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
     }
 }
