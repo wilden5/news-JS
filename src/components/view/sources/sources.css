@@ -11,6 +11,8 @@
     -webkit-overflow-scrolling: touch;
     padding: 0 10px;
     box-sizing: border-box;
+    -webkit-mask-image: linear-gradient(to right, transparent, white 20px, white calc(100% - 20px), transparent);
+    mask-image: linear-gradient(to right, transparent, white 20px, white calc(100% - 20px), transparent);
 }
 
 .source__item {
